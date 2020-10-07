@@ -1,0 +1,174 @@
+
+body{
+  background-color: honeydew;
+}
+
+/* navigation bar */
+
+.navigation{
+  border: 3rem;
+  color: #d9d9d9;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.navbar-border{
+  border-color: red;
+  border: 3px;
+}
+
+/* Introduction Section Image */
+
+#section-image{
+  object-fit: cover;
+  height: 47rem;
+  width: 94rem;
+  position: relative;
+  bottom: 5rem;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+/* Introduction section text */
+
+.div-intro-heading{
+  position: absolute;
+  top: 10rem;
+  left:5rem;
+}
+
+.h1-intro{
+  font-family: "Alegreya Sans Black", sans-serif;
+  font-weight: 900;
+}
+
+.p-intro{
+  font-family:"Open Sans Regular",serif;
+  font-size: 200%;
+  position: relative;
+  top: 2rem;
+}
+
+/* Second division text */
+
+.second-div-heading{
+  font-size: 56px;
+  text-align: center;
+  font-family: "Merriweather";
+}
+
+.alignment{
+  text-align: center;
+}
+
+.sub-heading{
+  font-size: 32px;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.text{
+  font-size: 18px;
+  font-family: "Quicksand";
+  text-align: center;
+  align-items: center;
+  padding: 20px 125px 20px;
+}
+
+.alignment img{
+  opacity: 0.8;
+}
+
+/* testimonial section */
+
+#testimonials{
+  margin-top: 4rem;
+  background-color: #138d77;
+  text-align: center;
+}
+
+.test{
+  width: 27%;
+  margin: 3%
+}
+
+.testimonial-text{
+  padding-bottom: 100px;
+  color: #e9eaf7;
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+
+.testimonial-name-heading{
+  font-family: "Inter";
+  font-size: 32px;
+  color: #d9d9d9;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pharmacy naviation section */
+
+#pharmacy-navigation{
+  margin: 10%;
+  text-align: center;
+}
+
+#pharmacy-navigation .button{
+  background-color: #138d77;
+  color: #e9eaf7;
+  margin-top: 3%;
+  padding: 2% 4%;
+  font-size: 2rem;
+}
+
+#pharmacy-navigation .button:hover{
+  background-color: #0fb899;
+}
+
+/* footer section */
+
+.foot-section hr{
+  margin: 0;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 6px;
+}
+
+.foot-section .foot-div{
+  background-color: #138d77;
+  text-align: center;
+  height: 10%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  color: #e9eaf7;
+  font-family: "Abhaya Libre";
+}
+
+.footer-position{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* contact landing page */
+
+.contact{
+  text-align: left;
+  font-size: 32px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: #002A01;
+}
+
+/* pharmacy landing page */
+
+.med a{
+  text-decoration: none;
+  color: black;
+}
